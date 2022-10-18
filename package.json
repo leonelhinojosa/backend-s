@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonelhinojosa/backend-s.git"
+    "url": "git+https://github.com/leonelhinojosa/backend-s.git.git"
   },
   "author": "",
   "license": "ISC",
