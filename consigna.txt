@@ -28,12 +28,3 @@ ingrese su email (obligatorio para poder utilizar el chat) y otro para
 ingresar mensajes y enviarlos mediante un botón. 
 Los mensajes deben persistir en el servidor en un archivo (ver segundo
 entregable).
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
