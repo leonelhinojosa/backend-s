@@ -1,34 +1,40 @@
 {
-  "name": "backhouse",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "pre entrega 1 de proyecto final",
+  "main": "App.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/App.js",
+    "dev": "nodemon src/App.js",
+    "transpilate": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonelhinojosa/backend-s.git.git"
+    "url": "git+https://github.com/EfimeroM/backend2022.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Juan Martin Perez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leonelhinojosa/backend-s.git/issues"
+    "url": "https://github.com/EfimeroM/backend2022/issues"
   },
-  "homepage": "https://github.com/leonelhinojosa/backend-s.git#readme",
+  "homepage": "https://github.com/EfimeroM/backend2022#readme",
   "dependencies": {
-    "better-sqlite3": "^7.6.2",
-    "body-parser": "^1.20.0",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "handlebars": "^4.7.7",
-    "knex": "^2.3.0",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.3",
-    "nodemon": "^2.0.19",
-    "socket.io": "^4.5.2",
-    "sqlite3": "^5.1.2"
+    "firebase": "^9.12.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.6",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.1"
+  },
+  "engines": {
+    "node": "16.14.2"
   }
 }
